@@ -23,7 +23,11 @@ public class FindOccurCountTest {
 		
 		
 		assertEquals(1,myOccurCount.getOccurCount("Hello"));
-		
+	}
+	
+	@Test
+	public void FindTwoOccurences() {
+		assertEquals(2,myOccurCount.getOccurCount("HERTLYUOHRLELLO"));
 	}
 	
 

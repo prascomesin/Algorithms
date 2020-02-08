@@ -17,14 +17,15 @@ public class FindOccurCount {
 	
 	public int getOccurCount(String myStr) {
 		
-		int count = 0;
+		String token = "HELLO";
+		
 		//Convert the received string to all upperCase character
 		String upString = myStr.toUpperCase();
 		
 		//Create a set of the characters in the token 
 		//Set ensures that there are no duplicates for repeated characters
 		Set<Character> mySet = new HashSet<Character>();
-		for(Character i: upString.toCharArray()) {
+		for(Character i: token.toCharArray()) {
 			mySet.add(i);
 		}
 		
